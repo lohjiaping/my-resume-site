@@ -1,0 +1,98 @@
+/* Basic Reset and Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this to your style.css file */
+.profile-photo {
+    width: 150px; /* Adjust size as needed */
+    height: 150px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the image round */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 10px; /* Space below the image */
+    border: 3px solid #ffcc00; /* Optional: Yellow border */
+    display: block; /* Ensures it's on its own line */
+    margin-left: auto; /* Centers the image */
+    margin-right: auto; /* Centers the image */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    background: #2a3c56; /* Dark Blue Header */
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+/* Navigation Styling */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #4a658a;
+}
+
+main {
+    background: white;
+    padding: 20px;
+    margin: auto;
+    max-width: 900px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #2a3c56;
+    border-bottom: 2px solid #ffcc00; /* Yellow Accent */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Specific list styling for contact page */
+.contact-info ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+.contact-info li {
+    padding: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: #777;
+    font-size: 0.9em;
+}
